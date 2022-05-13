@@ -1,0 +1,116 @@
+#playerbackground {
+    background: rgb(50,52,54);
+    border-radius: 10px
+}
+
+#playerbackground:hover {
+    
+    background-color: #04245b
+}
+
+@media (min-width:360px) {
+    .player-col-sm-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+        flex: 0 0 30%;
+        max-width: 30%
+    }
+
+    .player-col-sm-7 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+
+    .player-col-sm-2 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%
+    }
+
+    #img-player {
+        margin-top: 10px;
+        margin-left: 10px;
+        height: 40px
+    }
+}
+
+#music-play a {
+    color: #fff
+}
+
+#exploremore {
+    margin-left: 45px;
+    margin-top: 30%
+}
+
+#music-download {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: -70px
+}
+
+#music-title {
+    margin-top: 30px;
+    margin-left: -20px
+}
+
+@media (min-width:360px) {
+    #music-title {
+        margin-top: 20px
+    }
+
+    #music-play {
+        margin-top: 15px;
+        height: auto;
+        width: 60px;
+        padding-right: 40px;
+        margin-bottom: 10px
+    }
+
+    .downloadbtn {
+        background-color: #03acc3;
+        color: #fff
+    }
+
+    .downloadbtn:hover {
+        background-color: #ed145b;
+        color: #fff
+    }
+
+    .spacedown {
+        margin-top: 100px
+    }
+
+    .hr1 {
+        margin-top: 10px
+    }
+
+    .playertitle {
+        background: linear-gradient(50deg, #03acc3 60%, #ed145b 50%);
+        border-radius: .9rem;
+        border-top-right-radius: 5.4rem;
+        border-top-left-radius: 5.4rem
+    }
+
+    .playertitle img {
+        padding-bottom: 20px;
+        margin-left: 13px
+    }
+
+    #playertitlebackground {
+        height: auto
+    }
+
+    #topplayer {
+        display: ruby
+    }
+}
+
+#music-download i {
+    padding-top: 5px;
+    font-size: 15px;
+    padding-bottom: 5px
+}
