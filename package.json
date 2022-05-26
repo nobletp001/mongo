@@ -1,7 +1,7 @@
 {
   "name": "BongoMusic",
   "version": "2.1.0",
-  "homepage": ".",
+  "homepage": "https://vocal-souffle-1e3bec.netlify.app",
   "private": true,
   "dependencies": {
     "@americanexpress/react-seo": "^1.4.2",
