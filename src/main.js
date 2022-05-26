@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "./components/footer";
 import {
-  NavLink, Route, BrowserRouter
+  NavLink, Route, BrowserRouter, HashRouter, Switch
 } from "react-router-dom";
 import Home from "./home";
 import Singlepost from "./singlepost";
@@ -46,7 +46,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 const Main = () => {
   return (
 <>
-    <BrowserRouter >
+    <HashRouter >
   
     <div id="wrapper">
  <header id="header">
@@ -82,6 +82,7 @@ const Main = () => {
 </div>
  
      <div id="content" className="container" >
+     <Switch>
             <Route exact path="/" component={Home}/>
             <Route path="/blogs" component={Blogs}/>
             <Route path="/promotion" component={Promotion}/>
@@ -100,11 +101,12 @@ const Main = () => {
             <Route path="/fashion" component={FashionCategory}></Route>
             <Route path="/ict-tech" component={IctTechCategory}></Route>
             <Route path="/general-election" component={GeneralElectionCategory}></Route>
+    </Switch>
 </div>
 
      
    
-      </BrowserRouter>
+      </HashRouter>
       <Player /> 
       <Footer /> 
       </>

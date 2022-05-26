@@ -8,7 +8,6 @@ import "./customcss/lib/bootstrap/css/bootstrap.css";
 import Playericon from "./img/player_img.png";
 import Booyad1 from "./footerad/ad2.gif";
 import Booyad2 from "./footerad/adigbo.gif";
-import SEO from '@americanexpress/react-seo';
 import ReactGA from 'react-ga';
 import { Helmet } from "react-helmet";
 
@@ -40,28 +39,6 @@ const urldownload = url.searchParams.get("urldownload");
     return (
 
     <>
-      <SEO
-      title= {seotitle} 
-      description= {description}
-      keywords= {{keywordlists}}
-      siteUrl= {url}
-      openGraph={{
-        title: {seotitle},
-        description: {description},
-        image: {
-          src: 'https://bongomusic.com.ng/logo.png',
-          alt: {seotitle},
-        }
-      }}
-      twitterCard={{
-        title: {seotitle} ,
-        description: {description},
-        image: {
-          src: 'https://bongomusic.com.ng/logo.png',
-          alt: {seotitle},
-        }
-      }}
-    />
     
     <Helmet>
             <meta charSet="utf-8" />

@@ -21,7 +21,7 @@ class Blog extends React.Component {
         .get(`${wordPressSiteUrl}/wp-json/wp/v2/posts/?per_page=10`)
         .then((res) => {
           this.setState({ loading: false, posts: res.data });
-
+          console.log(res.data);
         })
         .catch((error) =>
           this.setState({ loading: false, error: error.response.data.message })
