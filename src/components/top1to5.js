@@ -51,7 +51,7 @@ const  newdata= data.map( ( data ) => {
                 }
               )
 
-export default class Top1to5 extends Component {
+export default class Top1to5 extends React.Component {
   
         render() {
     return (

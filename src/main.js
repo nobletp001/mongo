@@ -81,26 +81,26 @@ const Main = () => {
        </header>
 </div>
  
-     <div id="content" className="container" >
+     <div id="content" className="container">
      <Switch>
-            <Route exact path="/" component={Home}/>
-            <Route path="/blogs" component={Blogs}/>
-            <Route path="/promotion" component={Promotion}/>
-            <Route path="/about" component={About}/>
-            <Route path="/contact" component={Contact}/>
-            <Route path="/downloadmp3" component={DownloadArtist}></Route>
-            <Route path="/thankyou" component={Thankyou}></Route>
-            <Route path="/copyright" component={Copyright}></Route>
-            <Route path="/posts/:id" component={Singlepost}></Route>
-            <Route path="/breakingnews" component={BreakingNewsCategory}></Route>
-            <Route path="/business" component={BusinessCategory}></Route>
-            <Route path="/events" component={EventCategory}></Route>
-            <Route path="/history" component={HistoryCategory}></Route>
-            <Route path="/sport" component={SportCategory}></Route>
-            <Route path="/wisewords" component={WisewordsCategory}></Route>
-            <Route path="/fashion" component={FashionCategory}></Route>
-            <Route path="/ict-tech" component={IctTechCategory}></Route>
-            <Route path="/general-election" component={GeneralElectionCategory}></Route>
+            <Route exact path="/" component={Home} />
+            <Route path="/blogs" component={Blogs} />
+            <Route path="/promotion" component={Promotion} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/downloadmp3" component={DownloadArtist} />
+            <Route path="/thankyou" component={Thankyou} />
+            <Route path="/copyright" component={Copyright} />
+            <Route path="/posts/:id" component={Singlepost} />
+            <Route path="/breakingnews" component={BreakingNewsCategory} />
+            <Route path="/business" component={BusinessCategory} />
+            <Route path="/events" component={EventCategory} />
+            <Route path="/history" component={HistoryCategory} />
+            <Route path="/sport" component={SportCategory} />
+            <Route path="/wisewords" component={WisewordsCategory} />
+            <Route path="/fashion" component={FashionCategory} />
+            <Route path="/ict-tech" component={IctTechCategory} />
+            <Route path="/general-election" component={GeneralElectionCategory} />
     </Switch>
 </div>
 
