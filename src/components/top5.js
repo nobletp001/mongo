@@ -54,4 +54,3 @@ export default class Top5 extends Component {
     }
 }
 
-
